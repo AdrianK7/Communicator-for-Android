@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.forstudy.pc.communicator.Activities.MainActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+ <!--   <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/logoutButton"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:padding="15dp"
+        android:textColor="@android:color/white" /> -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/holo_blue_dark"
+        android:elevation="4dp"
+        android:titleTextColor="@android:color/black"
+        android:subtitleTextColor="@android:color/black"
+        android:theme="@style/ToolbarStyle"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:layout_width="fill_parent">
+        <Button
+            android:id="@+id/myContacts"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+
+            android:background="@android:color/holo_blue_dark"
+            android:textSize="12sp"
+            android:padding="15dp"
+            android:textColor="@android:color/white"
+            android:text="My Contacts" />
+
+        <Button
+            android:id="@+id/Messages"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:textSize="12sp"
+            android:padding="15dp"
+            android:textColor="@android:color/white"
+            android:text="Messages" />
+
+        <Button
+            android:id="@+id/deptContacts"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:textSize="12sp"
+            android:padding="15dp"
+            android:textColor="@android:color/white"
+            android:text="Departments" />
+
+    </LinearLayout>
+
+
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="@android:color/white"
+        android:id="@+id/usersListView">
+    </ListView>
+
+</LinearLayout>

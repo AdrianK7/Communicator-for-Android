@@ -1,0 +1,41 @@
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:id="@+id/layout">
+    <TextView
+        android:id="@+id/Status"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+
+        android:textSize="17sp"
+        android:padding="15dp"
+
+        android:textAlignment="textEnd"
+        android:text="New Message!" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_alignParentTop="true"
+        android:textSize="16sp"
+
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/Login"
+        android:layout_below="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="12sp"
+
+        android:text="Login" />
+</RelativeLayout>

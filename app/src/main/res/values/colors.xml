@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorSelected">#04afbf</color>
+    <color name="colorNotSelected">#FFFFFF</color>
+    <color name="colorIncomingMessage">@android:color/holo_blue_dark</color>
+    <color name="colorOutgoingMessage">#e6e6e6</color>
+
+</resources>
